@@ -1,0 +1,421 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.hr {
+    border: 1px solid orange;
+    width: 64px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+.circle__1 {
+    width: 70px;
+	height: 70px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    background-image: url('images/klava.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 30px ;
+}
+
+.circle__2 {
+    width: 70px;
+	height: 70px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    margin-bottom: 30px;
+    background-image: url('images/lampa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.circle__3 {
+    width: 70px;
+	height: 70px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    margin-bottom: 30px;
+    background-image: url('images/molniya.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 106px;
+    text-align: center;
+
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.title {
+    text-align: center;
+}
+
+
+.content {
+    display: inline-block;
+    width: 350px;
+}
+
+.box   {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 0 auto;
+}
+
+
+.footer {
+    background-image: url('images/gorod.png');
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.hr__footer {
+    border: 1px solid white;
+    width: 70px;
+    margin-bottom: 26px;
+    margin: 0 auto;
+
+}
+
+.header__footer {
+    font-size: 36px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    padding: 26px;
+
+    
+}
+
+.text__footer {
+    font-size: 14px;
+    color: rgb(177 ,177 ,177);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+    margin-top: 30px;
+
+}
+
+.button {
+    width: 135px;
+    height: 42px;
+    margin: 30px 0px 150px 0px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    outline: none;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    width: calc(200px/2);
+    background-color: red;
+    transition-duration: 1s;
+
+}
+
+
+
+.svg__block {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+
+.svg {
+    display: inline-block;
+    padding: 20px;
+    background-color: black;
+    width: 50px
+
+}
+
+.copy {
+    text-align: center;
+    background-color: black;
+    color: rgb(177 ,177 ,177);
+}
+
+
+.lesson4 {
+    width: 100%;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    display: inline-block;
+    
+}
+
+
+.hr__lesson4 {
+    border: 1px solid orange;
+    width: 64px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+
+
+.header__lesson4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 120px;
+   
+}
+
+
+.text__lesson4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    
+}
+
+
+
+.cost0 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom:120px ;
+}
+
+
+.cost1:hover {
+    cursor: pointer;
+    width: calc(200px*2);
+    background: linear-gradient(red,black);
+    transition-duration: 1s;
+}
+
+.cost2:hover {
+    cursor: pointer;
+    width: calc(200px*2);
+    background: linear-gradient(blue,black);
+    transition-duration: 1s;
+}
+
+.cost3:hover {
+    cursor: pointer;
+    width: calc(200px*2);
+    background: linear-gradient(green,black);
+    transition-duration: 1s;
+}
+
+
+
+
+
+
+.cost1 {
+    width: 345px;
+    border: 1px solid white;
+    background: rgb(76,76,76);
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid rgb(217,218,219);
+    margin-right: 50px;
+   
+    
+    
+    
+}
+
+.cost2 {
+
+    
+    width: 345px;
+    border: 1px solid white;
+    background: rgb(76,76,76);
+    color: #FFFFFF;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid rgb(217,218,219);
+
+    
+}
+
+
+.cost3 {
+    width: 345px;
+    border: 1px solid white;
+    background: rgb(76,76,76);
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid rgb(217,218,219);
+    margin-left: 50px;
+    
+    
+}
+
+
+.hr__lesson4_1 {
+    border: 3px solid orange;
+    width: 100%;
+}
+
+
+
+.ol {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    padding-top: 10px;
+    background-color:white;
+    margin: 0;
+    border-bottom: 1px solid rgb(217,218,219)
+    
+}
+
+.ol:hover {
+    cursor: pointer;
+    width: calc(200px*2);
+    background-color: orange;
+    transition-duration: 0.1s;
+}
+
+.href {
+    background-color: orange;
+    padding: 12px;
+    margin: 0 auto;
+    
+}
+    
+
+.OUR {
+    color: white;
+}
+
+
+
+li {
+    list-style-type: none;
+    color: black;
+
+}
+
+
+
+
+.basic {
+    padding: 25px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+
+.professional {
+    padding: 25px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.enterprise {
+    padding: 25px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+    
+}
+
+
+
+.number {
+    width: 343px;
+    height: 100px;
+    text-align: center;
+    font-size: 90px;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.number:first-letter {
+    font-size: 40%;
+
+}
+
+
+
+
+
+.headline__lesson4 {
+    text-align: center;
+    width: 100%;
+    height: 51px;
+    padding-top: 13px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.5019607843137255;
+
+
+}
+
+
+
